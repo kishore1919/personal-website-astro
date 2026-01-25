@@ -21,18 +21,11 @@ stop-mongo:
 migrate-mongo:
 	mongosh < script/mongo-setup/document.js
 
-## telemetry
-opt-out-telemetry:
-	pnpm next telemetry disable
-
 ## generate
-generate: generate-webmanifest generate-sitemap
+generate: generate-webmanifest
 
 generate-webmanifest:
 	pnpm vite-node script/site/webmanifest.ts
-
-generate-sitemap:
-	pnpm next-sitemap
 
 ## env
 generate-environment-type-definition:
@@ -60,8 +53,9 @@ deploy-staging: build-staging
 deploy-production: build-production
 	vercel --prod
 
+## cleanup
 clear-cache:
-	rm -rf .next
+	rm -rf dist .astro .vite
 
 start-development: copy-env-development clear-cache dev
 
@@ -81,15 +75,15 @@ build-staging: clear-cache copy-env-staging build
 build-testing: clear-cache copy-env-testing build
 
 build:
-	pnpm next build
+	pnpm astro build
 
 ## start
 start:
-	pnpm next start $(arguments)
+	pnpm astro preview $(arguments)
 
 ## dev
 dev:
-	pnpm next dev
+	pnpm astro dev
 
 ## format
 format-generate-config:

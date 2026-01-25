@@ -9,7 +9,6 @@
         "@astrojs/react": "^4.4.2",
         "@emotion/react": "^11.14.0",
         "@emotion/styled": "^11.14.1",
-        "@formfacade/embed-react": "^1.1.2",
         "@mui/icons-material": "^7.3.7",
         "@mui/material": "^7.3.7",
         "@poolofdeath20/util": "^0.8.2",
@@ -179,8 +178,6 @@
     "@esbuild/win32-ia32": ["@esbuild/win32-ia32@0.25.1", "", { "os": "win32", "cpu": "ia32" }, "sha512-uOxSJCIcavSiT6UnBhBzE8wy3n0hOkJsBOzy7HDAuTDE++1DJMRRVCPGisULScHL+a/ZwdXPpXD3IyFKjA7K8A=="],
 
     "@esbuild/win32-x64": ["@esbuild/win32-x64@0.25.1", "", { "os": "win32", "cpu": "x64" }, "sha512-Y1EQdcfwMSeQN/ujR5VayLOJ1BHaK+ssyk0AEzPjC+t1lITgsnccPqFjb6V+LsTp/9Iov4ysfjxLaGJ9RPtkVg=="],
-
-    "@formfacade/embed-react": ["@formfacade/embed-react@1.1.2", "", {}, "sha512-wjyjME4HvvXpzoYtRqbbtTgYDvIlUJS/HooUNXX/Jt4NITJe9QcqxQtbsKg4PIpzIRV1NFheGp4vGcr/KAv1XA=="],
 
     "@img/colour": ["@img/colour@1.0.0", "", {}, "sha512-A5P/LfWGFSl6nsckYtjw9da+19jB8hkJ6ACTGcDfEJ0aE+l2n2El7dsVM7UVHZQ9s2lmYMWlrS21YLy2IR1LUw=="],
 

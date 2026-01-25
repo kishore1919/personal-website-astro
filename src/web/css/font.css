@@ -1,0 +1,8 @@
+/* Use a small fallback stack; actual webfont is injected at runtime to avoid blocking rendering */
+:root {
+	--font-primary: 'JetBrains Mono', ui-monospace, 'SFMono-Regular', Menlo, Monaco, monospace;
+}
+
+html, body {
+	font-family: var(--font-primary);
+}

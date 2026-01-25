@@ -1,11 +1,6 @@
 node_modules
 pnpm-lock.yaml
 
-# next.js
-.next
-out
-next-env.d.ts
-
 # generated
 .prettierrc
 
@@ -25,7 +20,7 @@ env.d.ts
 # vercel
 .vercel
 
-# sitemap
+# sitemap and manifest (generated)
 public/sitemap*.xml
 public/site.webmanifest
 public/manifest.json
