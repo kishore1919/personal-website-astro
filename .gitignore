@@ -22,3 +22,44 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+
+# Editor directories and local IDE settings
+.vscode/
+
+# OS files
+Thumbs.db
+desktop.ini
+
+# Caches and build tooling
+.cache/
+.parcel-cache/
+.sass-cache/
+.vite/
+.vitepress/
+
+# Additional build outputs
+out/
+build/
+.next/
+
+# Test coverage and reports
+coverage/
+.nyc_output/
+
+# Local environment files
+.env.local
+.env.*.local
+.env.test
+
+# Package manager artifacts (pnpm/Yarn PnP)
+.pnp.cjs
+.pnp.js
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.yarn/patches
+
+# Misc
+.history
+*.log
