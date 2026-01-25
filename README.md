@@ -1,45 +1,46 @@
-# Personal Portfolio Website
+# Astro Starter Kit: Basics
 
-This is a personal portfolio website built with Astro.js to showcase my projects and skills. It features a modern, dark theme with a glitch effect for the main heading and includes sections for Home, Projects, and Contact.
+```sh
+bun create astro@latest -- --template basics
+```
 
-## ✨ Features
+> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
-*   **Multi-page Layout:** A consistent and seamless user experience with a shared layout for the home, projects, and contact pages.
-*   **Modern & Dark UI:** A sleek, dark-themed design with a professional color scheme, custom fonts, and a unique glitch text effect for headings.
-*   **Interactive Elements:** Includes icons, social media links in the header and footer, and a functional contact form.
-*   **Responsive Design:** The website is fully responsive and adapts to different screen sizes, ensuring it works perfectly on both mobile and desktop.
+## 🚀 Project Structure
 
-## 🚀 Tech Stack
+Inside of your Astro project, you'll see the following folders and files:
 
-*   **[Astro.js](https://astro.build/):** A modern, static-first web framework for building fast, content-focused websites.
-*   **HTML & CSS:** The foundational building blocks of the web.
-*   **JavaScript:** For interactive elements and functionality.
+```text
+/
+├── public/
+│   └── favicon.svg
+├── src
+│   ├── assets
+│   │   └── astro.svg
+│   ├── components
+│   │   └── Welcome.astro
+│   ├── layouts
+│   │   └── Layout.astro
+│   └── pages
+│       └── index.astro
+└── package.json
+```
 
-## 🛠️ Getting Started
+To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
 
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/your-username/your-repo-name.git
-    cd your-repo-name
-    ```
+## 🧞 Commands
 
-2.  **Install dependencies:**
-    ```bash
-    npm install
-    ```
+All commands are run from the root of the project, from a terminal:
 
-3.  **Run the development server:**
-    ```bash
-    npm run dev
-    ```
-    The application will be available at `http://localhost:4321`.
+| Command                   | Action                                           |
+| :------------------------ | :----------------------------------------------- |
+| `bun install`             | Installs dependencies                            |
+| `bun dev`             | Starts local dev server at `localhost:4321`      |
+| `bun build`           | Build your production site to `./dist/`          |
+| `bun preview`         | Preview your build locally, before deploying     |
+| `bun astro ...`       | Run CLI commands like `astro add`, `astro check` |
+| `bun astro -- --help` | Get help using the Astro CLI                     |
 
-## 👨‍💻 About Me
+## 👀 Want to learn more?
 
-While Python and Bash are my primary languages, I'm a versatile engineer comfortable with adapting to new technologies. I'm passionate about creating web applications, CLI tools, and automating deployment and infrastructure.
-
-Outside of programming, I enjoy reading insightful articles, working out, going for bike rides, and playing video games with friends.
-
-## ☁️ Deployment
-
-This website is configured for easy deployment to Firebase Hosting.
+Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
